@@ -1,76 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oreen's Portfolio</title>
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
     <header>
+      <div class="header-container">
+        <div class="logo">
+          <img src="images/logo.jpg" alt="Logo" />
+          <span class="site-name">Florine Makena</span>
+        </div>
+        <button class="nav-toggle">☰ Menu</button>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </nav>
+      </div>
     </header>
-
-    <!-- Home Section -->
+  
     <section id="home">
-        <h1>Hi, I'm Oreen</h1>
-        <p>Front-End Developer | Freelancer</p>
-        <a href="#projects" class="btn">View My Work</a>
+      <h1>Welcome to My Portfolio</h1>
+      <p>I'm a passionate developer/designer ready to bring ideas to life.</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </section>
+  
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm [Your Name], a creative and dedicated front-end developer with a strong passion
+        for building beautiful, functional websites. I specialize in HTML, CSS, and JavaScript,
+        and I love turning ideas into reality through clean and responsive design.
+      </p>
     </section>
 
-    <!-- Projects Section -->
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-list">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">React</div>
+          <div class="skill">Figma</div>
+          <div class="skill">Git</div>
+        </div>
+      </section>
+      
+  
     <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Portfolio Website</h3>
-            <p>Built with HTML, CSS, and JavaScript.</p>
-            <a href="https://myportfolio.com" target="_blank">Live Demo</a>
-        </div>
-        <div class="project">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>E-commerce Website</h3>
-            <p>Created using React and Tailwind CSS.</p>
-            <a href="https://ecommerce.com" target="_blank">Live Demo</a>
-        </div>
+      <h2>My Projects</h2>
+      <div class="project">
+        <a href="https://your-project-link.com" target="_blank" rel="noopener noreferrer">
+          <img src="project1.jpg" alt="Project 1">
+          <h3>Project Title 1</h3>
+        </a>
+        <p>Brief description of the project, tools used, and what you achieved.</p>
+      </div>
+      
+      <div class="project">
+        <a href="https://your-project-link.com" target="_blank" rel="noopener noreferrer">
+          <img src="project1.jpg" alt="Project 1">
+          <h3>Project Title 1</h3>
+        </a>
+        <p>Brief description of the project, tools used, and what you achieved.</p>
+      </div>
+      
     </section>
-
-    <!-- Services Section -->
-    <section id="services">
-        <h2>What I Offer</h2>
-        <div class="service">
-            <h3>Front-End Development</h3>
-            <p>Creating responsive and modern websites using HTML, CSS, and JavaScript.</p>
-        </div>
-        <div class="service">
-            <h3>UI/UX Design</h3>
-            <p>Designing user-friendly interfaces for web applications.</p>
-        </div>
-        <a href="#contact" class="btn">Hire Me</a>
-    </section>
-
-    <!-- Contact Section -->
+  
     <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </section>
-
-    <!-- Footer -->
+  
     <footer>
-        <p>© 2025 Oreen | All Rights Reserved</p>
-    </footer>
-</body>
+        <div class="social-links">
+          <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <p>&copy; 2025 Florine Makena. All rights reserved.</p>
+      </footer>
+      
+  
+    <script src="script.js" defer></script>
+  </body>
+  
 </html>

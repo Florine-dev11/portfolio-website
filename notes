@@ -1,0 +1,35 @@
+<div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img
+          src="images/logo.jpg"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text">John Anderson</h4>
+    </div>
+
+
+
+    .main-header__logo-container {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+      
+      .main-header__logo-img-cont {
+        margin-right: 1.5rem;
+        width: 4rem;
+        height: 4rem;
+        overflow: hidden;
+        border-radius: 10rem;
+        background: rgba(var(--themeColor), 1);
+      }
+      
+      .main-header__sm-scr-nav-btn {
+        padding: 1rem 1rem;
+        display: none;
+        cursor: pointer;
+      }
+      
+
+
+
